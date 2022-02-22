@@ -1,0 +1,98 @@
+/***** FONTS *****/
+
+/* ROBOTO - font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+/***** RESET *****/
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/***** SECTION HERO *****/
+
+.hero {
+  background-color: #1d2437;
+  background-image: url(../images/bg-hero.png);
+}
+
+.hero .container--hero {
+  max-width: 1070px;
+  margin: auto;
+  color: #fff;
+}
+
+.hero .container--hero header {
+  padding-top: 45px;
+}
+
+.hero .container--hero .hero--area {
+  display: flex;
+}
+
+.hero .container--hero .hero--area .content--hero {
+  flex: 1;
+}
+
+.hero .container--hero .content--hero h1 {
+  margin: 0;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 50px;
+  color: #fff;
+}
+
+.hero .container--hero .hero--area .content--hero .subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.hero .container--hero .hero--area .content--hero .form {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.hero .container--hero .hero--area .content--hero .form input {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: transparent;
+  padding: 5px 10px;
+  width: 300px;
+  font-size: 14px;
+  line-height: 23px;
+  color: #fff;
+  outline: none;
+}
+
+.hero .container--hero .hero--area .content--hero .form button {
+  background-color: #0071B7;
+  padding: 6px 10px;
+  border: none;
+  color: ;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  align: center;
+  color: #fff;
+}
+
+.hero .container--hero .hero--area .content--hero .techs {
+  display: inline-block;
+  margin-bottom: 70px;
+}
+
+.hero .container--hero .hero--area .image--hero {
+  flex: 1;
+  background-image: url(../images/hero.png);
+  background-position-y: bottom;
+  background-size: 100% auto;
+}
