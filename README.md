@@ -1,10 +1,10 @@
 # Capture Page
 
-#### url: https://fennawake.github.io/capture-page-html-css/
+#### url: [visit here](https://fennawake.github.io/capture-page-html-css/)
 
 #### Project description
 
-I developed a Capture page to remember and put into practice the fundamentals of HTML5 and CSS3. This page is part of my Portfolio you can see at https://fennawake.github.io/
+I developed a Capture page to remember and put into practice the fundamentals of HTML5 and CSS3. This page is part of my [Portfolio] (https://fennawake.github.io/)
 
 #### Stacks
 
@@ -12,3 +12,13 @@ I developed a Capture page to remember and put into practice the fundamentals of
 - CSS3
 - Github
 - Github Pages
+
+#### Layout
+
+##### Desktop version
+
+![Desktop.png](/assets/images/layout/Desktop.png)
+
+##### Mobile version
+
+![Mobile.png](assets/images/layout/Mobile.png)
