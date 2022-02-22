@@ -1,5 +1,14 @@
 # Capture Page
 
-Capture page using HTML and CSS to remeber these stacks and apply new CSS features as flexbox.
+#### url: https://fennawake.github.io/capture-page-html-css/
 
-I created this page to remember and put into practice the fundamentals of HTML5 and CSS3.
+#### Project description
+
+I developed a Capture page to remember and put into practice the fundamentals of HTML5 and CSS3. This page is part of my Portfolio you can see at https://fennawake.github.io/
+
+#### Stacks
+
+- HTML5
+- CSS3
+- Github
+- Github Pages
