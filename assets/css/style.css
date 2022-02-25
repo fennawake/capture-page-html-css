@@ -42,7 +42,7 @@ body {
 
 .hero .container--hero .content--hero h1 {
   margin: 0;
-  margin-top: 70px;
+  margin-top: 100px;
   margin-bottom: 20px;
   font-size: 42px;
   font-weight: 500;
@@ -83,11 +83,15 @@ body {
   line-height: 23px;
   align: center;
   color: #fff;
+  cursor: pointer;
+}
+.hero .container--hero .hero--area .content--hero .form button:hover {
+  opacity: .8;
 }
 
 .hero .container--hero .hero--area .content--hero .techs {
   display: inline-block;
-  margin-bottom: 70px;
+  margin-bottom: 100px;
 }
 
 .hero .container--hero .hero--area .image--hero {
@@ -95,4 +99,83 @@ body {
   background-image: url(../images/hero.png);
   background-position-y: bottom;
   background-size: 100% auto;
+}
+
+
+/* common */
+
+.container {
+  max-width: 900px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/***** INFO *****/
+
+.info {
+  height: 100px;
+  border-bottom: 2px solid #EAEEF1;
+}
+.info .info--text {
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 700;
+  color: #C2C8CB;
+  margin: 0 10px;
+}
+
+.info .info--circle {
+  width: 6px;
+  height: 6px;
+  background-color: #C2C8CB;
+  border-radius: 50%;
+  margin: 0 30px;
+}
+
+
+/***** INSTRUCTIONS *****/
+.inst {}
+
+.inst .container {
+  padding: 70px 0;
+  display: block;
+}
+
+.inst .inst--item {
+  border-left: 3px solid #ECF0F3;
+  display: flex;
+}
+
+.inst .inst--item .inst--circle {
+  width: 17px;
+  height: 17px;
+  background-color: #0071B7;
+  border-radius: 50%;
+}
+
+.inst .inst--item .inst--content {}
+
+.inst .inst--item .inst--content h2 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.inst .inst--item .inst--content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+/***** FOOTER *****/
+footer {
+  height: 300px;
 }
