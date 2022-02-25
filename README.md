@@ -15,6 +15,8 @@ I developed a Capture page to remember and put into practice the fundamentals of
 
 #### Layout
 
+This capture page was developed using concept of Desktop first.
+
 ##### Desktop version
 
 ![Desktop.png](/assets/images/layout/Desktop.png)
