@@ -113,7 +113,7 @@ body {
   align-items: center;
 }
 
-/***** INFO *****/
+/***** SECTION INFO *****/
 
 .info {
   height: 100px;
@@ -136,7 +136,7 @@ body {
 }
 
 
-/***** INSTRUCTIONS *****/
+/***** SECTION INSTRUCTIONS *****/
 .inst {}
 
 .inst .container {
@@ -148,21 +148,35 @@ body {
   border-left: 3px solid #ECF0F3;
   display: flex;
 }
+.inst .inst--item:last-child {
+  border-left: none;
+}
 
 .inst .inst--item .inst--circle {
   width: 17px;
   height: 17px;
   background-color: #0071B7;
   border-radius: 50%;
+  margin-left: -10px;
 }
 
-.inst .inst--item .inst--content {}
+.inst .inst--item:last-child .inst--circle {
+  margin-left: -8px;
+}
+
+.inst .inst--item .inst--content {
+  margin-left: 30px;
+  margin-top: -9px;
+  margin-bottom: 70px;
+  flex: 1;
+}
 
 .inst .inst--item .inst--content h2 {
   font-weight: 500;
   font-size: 32px;
   line-height: 37px;
   color: #000000;
+  margin: 0;
 }
 
 .inst .inst--item .inst--content p {
@@ -175,7 +189,99 @@ body {
 
 
 
+/***** SECTION CTA (CALL TO ACTION) *****/
+
+.cta {
+  background-color: #1D2437;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.cta .container {
+  padding: 100px 0;
+  align-items: flex-start;
+}
+
+.cta .cta--content {
+  flex: 1;
+}
+
+.cta .cta--content h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.cta .cta--content p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.cta .form {
+  flex: 1;
+}
+
+.cta .form input {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: transparent;
+  padding: 5px 10px;
+  width: 100%;
+  font-size: 14px;
+  line-height: 23px;
+  color: #fff;
+  outline: none;
+  margin-bottom: 30px;
+}
+
+.cta .form button {
+  background-color: #0071B7;
+  padding: 6px 10px;
+  border: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  align: center;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+}
+.cta .form button:hover {
+  opacity: .8;
+}
+
+
+
+
 /***** FOOTER *****/
 footer {
-  height: 300px;
+  background-color: #1D2437;
+}
+
+footer .container {
+  padding: 50px 0;
+  justify-content: space-between;
+}
+
+footer .links {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+footer .links a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;;
+}
+footer .links a:hover {
+  text-decoration: underline;
 }
